@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Title of the document</title>
+    <style>
+        table.border {
+            border-collapse: collapse;
+        }
+
+            table.border th {
+                padding: 5px;
+                border: 1px solid black;
+            }
+
+            table.border td {
+                padding: 5px;
+                border: 1px solid black;
+            }
+    </style>
+</head>
+<body>
+    <table style="width:100%">
+        <tr>
+            <td style="width:20%"></td>
+            <td style="width:60%" align="center" valign="top">
+                <table>
+                    <tr><td align="center"><h4 style="margin:0px">Laboratorio Elizondo</h4></td></tr>
+                    <tr><td align="center">Direccion: 100 mtrs Norte del Hosp. Carlos Luis Valverde Vega.</td></tr>
+                    <tr><td align="center">Telefono: 24-47-26-50</td></tr>
+		    <tr><td align="center">Correo: j_-elizondocastillo@hotmail.com</td></tr>
+                </table>
+            </td>
+            <td style="width:20%">
+                <table class="border" style="width:100%">
+                    <tr><td align="center" style="background-color:#D8D8D8">Resultado</td></tr>
+                    <tr><td align="center">Nro: @idResultado</td></tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr><td colspan="3" height="20"></td></tr>
+
+        <tr>
+            <td colspan="2">
+                <table style="width:100%">
+                    <tr>
+                        <td colspan="1" style="width:20%">Cliente:</td>
+                        <td colspan="3" style="width:80%;border-bottom:1px solid black">@CLIENTE</td>
+                    </tr>
+                </table>
+                <table style="width:100%">
+                    <tr>
+                        <td style="width:20%">Documento:</td>
+                        <td style="width:30%;border-bottom:1px solid black">@DOCUMENTO</td>
+                        <td style="width:10%">Fecha:</td>
+                        <td style="width:40%;border-bottom:1px solid black">@FECHA</td>
+                    </tr>
+                </table>
+            </td>
+            <td></td>
+        </tr>
+
+        <tr><td colspan="3" height="30"></td></tr>
+
+        <tr>
+            <td colspan="3">
+                <table class="border" style="width:100%;">
+                    <thead>
+                        <tr style="background-color:#D8D8D8">
+        	                <th>Prueba</th>
+				<th>Resultado</th>
+				<th>Unidad</th>
+				<th>Rango Referencia</th>
+                        </tr>
+                    </thead>
+                    <tbody>                       
+                        @FILAS
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

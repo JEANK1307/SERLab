@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SERLab", "SERLab\SERLab.csproj", "{D6E93548-68BA-4EC5-A4F6-85AF5692C91F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SERLabLogica", "SERLabLogica\SERLabLogica.csproj", "{23EB4A84-CE09-46A5-8011-4F869A2404DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SERLabBD", "SERLabBD\SERLabBD.csproj", "{936F3769-83FE-495C-8196-4063E541B49D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6E93548-68BA-4EC5-A4F6-85AF5692C91F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6E93548-68BA-4EC5-A4F6-85AF5692C91F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6E93548-68BA-4EC5-A4F6-85AF5692C91F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6E93548-68BA-4EC5-A4F6-85AF5692C91F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23EB4A84-CE09-46A5-8011-4F869A2404DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23EB4A84-CE09-46A5-8011-4F869A2404DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23EB4A84-CE09-46A5-8011-4F869A2404DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23EB4A84-CE09-46A5-8011-4F869A2404DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{936F3769-83FE-495C-8196-4063E541B49D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{936F3769-83FE-495C-8196-4063E541B49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{936F3769-83FE-495C-8196-4063E541B49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{936F3769-83FE-495C-8196-4063E541B49D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D52728E-6AC5-4DC4-831E-87278AB578B9}
+	EndGlobalSection
+EndGlobal
